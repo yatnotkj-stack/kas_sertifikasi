@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+
+<html lang="id"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"on-primary-fixed":"#00164e","inverse-primary":"#b6c4ff","on-tertiary-fixed-variant":"#0039b5","surface-bright":"#f8f9ff","inverse-surface":"#233144","surface-container-highest":"#d5e3fc","secondary-container":"#fea619","error-container":"#ffdad6","on-error-container":"#93000a","secondary-fixed-dim":"#ffb95f","on-secondary-fixed-variant":"#653e00","primary":"#00236f","secondary":"#855300","surface-variant":"#d5e3fc","surface-container":"#e6eeff","inverse-on-surface":"#eaf1ff","surface-container-high":"#dce9ff","on-surface":"#0d1c2e","on-secondary":"#ffffff","on-background":"#0d1c2e","on-primary-container":"#90a8ff","on-tertiary":"#ffffff","surface":"#f8f9ff","primary-fixed-dim":"#b6c4ff","on-secondary-container":"#684000","on-primary":"#ffffff","on-surface-variant":"#444651","surface-container-low":"#eff4ff","on-tertiary-fixed":"#001551","secondary-fixed":"#ffddb8","surface-tint":"#4059aa","surface-dim":"#ccdbf3","on-secondary-fixed":"#2a1700","outline":"#757682","tertiary-fixed-dim":"#b7c4ff","error":"#ba1a1a","tertiary-fixed":"#dce1ff","primary-container":"#1e3a8a","background":"#f8f9ff","primary-fixed":"#dce1ff","surface-container-lowest":"#ffffff","tertiary-container":"#0033a6","on-error":"#ffffff","outline-variant":"#c5c5d3","tertiary":"#002173","on-primary-fixed-variant":"#264191","on-tertiary-container":"#92a7ff"},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"},spacing:{"space-sm":"0.5rem","margin-sm":"1rem","space-md":"1rem","space-xl":"2rem","space-lg":"1.5rem","gutter":"1.5rem","space-xs":"0.25rem","gutter-sm":"1rem","margin":"2rem"},fontFamily:{"tabular-finance-md":["Public Sans"],"display-lg":["Public Sans"],"headline-lg":["Public Sans"],"title-md":["Public Sans"],"body-lg":["Public Sans"],"headline-md":["Public Sans"],"tabular-finance-lg":["Public Sans"],"body-sm":["Public Sans"],"headline-sm":["Public Sans"],"label-md":["Public Sans"],"label-sm":["Public Sans"],"body-md":["Public Sans"],"display-lg-mobile":["Public Sans"]},fontSize:{"tabular-finance-md":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"600"}],"display-lg":["36px",{"lineHeight":"44px","letterSpacing":"-0.02em","fontWeight":"700"}],"headline-lg":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}],"title-md":["14px",{"lineHeight":"20px","fontWeight":"600"}],"body-lg":["16px",{"lineHeight":"24px","fontWeight":"400"}],"headline-md":["20px",{"lineHeight":"28px","letterSpacing":"-0.005em","fontWeight":"600"}],"tabular-finance-lg":["20px",{"lineHeight":"28px","letterSpacing":"0em","fontWeight":"700"}],"body-sm":["12px",{"lineHeight":"16px","fontWeight":"400"}],"headline-sm":["16px",{"lineHeight":"24px","fontWeight":"600"}],"label-md":["12px",{"lineHeight":"16px","letterSpacing":"0.025em","fontWeight":"600"}],"label-sm":["11px",{"lineHeight":"14px","letterSpacing":"0.03em","fontWeight":"500"}],"body-md":["14px",{"lineHeight":"20px","fontWeight":"400"}],"display-lg-mobile":["28px",{"lineHeight":"36px","letterSpacing":"-0.01em","fontWeight":"700"}]}}};</script></head><body class="bg-surface-container-lowest font-body-md text-on-surface antialiased"><header class="fixed top-0 left-0 right-0 z-50 bg-surface-container-lowest shadow-[0_1px_8px_rgba(0,0,0,0.06)]"><div class="h-1 bg-secondary-container w-full"></div><div class="h-16 w-full px-margin flex items-center justify-between gap-space-md"><div class="flex items-center gap-space-md shrink-0"><img alt="Logo Kas Sertifikasi Guru" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1Vfp0Jsqny-EFe1GvHWr5RivHOfpHFHVn1Nqo3xDVibeEACURmkAtndu80OwDSP3QBSoeE-6Np_FHluYG3mkOZv1HtcV4ZYVPFAg_LwOTNxYJUE1HddskXQAMY64EwJbFVWM-uJV-8LORvYtKPEgIgdywGZs-6yOGkyQkNi3-hv8nwQqr9lfNoWK7i10NKPkPzEr-mtnKmef_4PyQb7wOzm8_NvL73LGVa9CVL42bFMeqFOiBtwduBM8hlN"/><div class="flex flex-col"><span class="font-title-md text-title-md text-primary leading-tight">Portal Kas Sertifikasi Guru</span><span class="font-label-sm text-label-sm text-on-surface-variant">Sistem Akuntabilitas Keuangan Organisasi</span></div></div><nav class="hidden xl:flex items-center gap-space-xs" data-active-classes="bg-primary-container text-on-primary font-title-md rounded-lg shadow-sm"><a class="px-space-md py-space-sm font-body-md text-body-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all rounded-lg" data-path="dashboard-umum-publik" href="#">Dashboard Umum (Publik)</a><a class="px-space-md py-space-sm font-body-md text-body-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all rounded-lg" data-path="panel-iuran-guru" href="#">Panel Iuran Guru</a><a class="px-space-md py-space-sm font-body-md text-body-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all rounded-lg" data-path="panel-bendahara-admin" href="#">Panel Bendahara / Admin</a><a class="px-space-md py-space-sm font-body-md text-body-md text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-all rounded-lg" data-path="buku-kas-laporan" href="#">Buku Kas &amp; Laporan</a></nav><div class="flex items-center gap-space-md shrink-0"><div class="hidden sm:flex items-center gap-space-xs bg-surface-container px-space-sm py-space-xs rounded border border-surface-variant"><span class="font-label-sm text-label-sm text-primary font-semibold tracking-wider uppercase">T.A. 2024/2025</span><span class="w-2 h-2 rounded-full bg-secondary-container inline-block"></span></div><button aria-label="Pemberitahuan" class="w-9 h-9 flex items-center justify-center rounded-lg text-on-surface-variant hover:bg-surface-container hover:text-on-surface transition-colors relative" type="button"><span class="material-symbols-outlined text-[20px]">notifications</span><span class="absolute top-1.5 right-1.5 w-2 h-2 bg-error rounded-full"></span></button><div class="flex items-center gap-space-sm pl-space-sm py-space-xs rounded-lg hover:bg-surface-container transition-colors cursor-pointer"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-1 ring-surface-variant" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB4RxbJIWlhqtogxIOztkEtsWh_B42LM0-zB2W9kt_HiOLGDEjZBdBKxWU7TEFVJydCtSnX64htYXbUOEjXMK_QQT9k7WzjZqk3RXqAL2Nu1F15doOdtxQD8_MX41qOR-MDBY3TdV65VOIfFaJHcy4CxaB_Ga12uOMQ4EA03q-4so8HW8po6NILqDFk4odub46a2UMmAtArzwujoo9IMgC6vJR3Nn1dhJsgiND6IEtahiiEuGR7PhOjgQ"/><div class="hidden md:flex flex-col text-left"><span class="font-label-md text-label-md text-on-surface leading-tight font-semibold">Drs. H. Ahmad Fauzi</span><span class="font-label-sm text-label-sm text-on-surface-variant leading-tight">Bendahara Pengurus</span></div><span class="material-symbols-outlined text-on-surface-variant text-[18px]">expand_more</span></div></div></div><div class="w-full bg-surface-container-low px-margin py-space-xs border-l-4 border-secondary-container flex items-center justify-between text-on-surface-variant"><div class="flex items-center gap-space-sm font-label-md text-label-md"><span class="material-symbols-outlined text-[16px] text-secondary">campaign</span><span>Pengumuman: Rekapitulasi Iuran Kas Sertifikasi Triwulan I TA 2024/2025 sedang dalam tahap rekonsiliasi perbankan.</span></div><div class="hidden lg:flex items-center gap-space-xs font-label-sm text-label-sm text-on-surface-variant"><span class="material-symbols-outlined text-[14px]">verified_user</span><span>Portal Resmi Terverifikasi</span></div></div></header><main class="w-full pt-[96px] bg-surface-container-lowest min-h-screen"><div class="flex flex-col w-full">
+<!-- Status & Welcome Ribbon (Public Transparency Banner) -->
+<section class="w-full px-margin pt-space-md">
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-md flex flex-col md:flex-row items-start md:items-center justify-between gap-space-md border-l-[6px] border-l-secondary-container">
+<div class="flex items-start gap-space-md">
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center shrink-0 text-primary">
+<span class="material-symbols-outlined text-[24px]">verified</span>
+</div>
+<div class="flex flex-col">
+<div class="flex items-center gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-primary">Portal Transparansi Iuran Kas Guru Sertifikasi</span>
+<span class="px-space-xs py-0.5 rounded text-[10px] font-bold uppercase tracking-wider bg-secondary-container/20 text-on-secondary-container">Publik &amp; Terverifikasi</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant mt-0.5">
+            Informasi pembukuan kas ini bersifat terbuka bagi seluruh guru bersertifikasi pendidik di lingkungan pengurus daerah. Data diperbarui otomatis setiap kali setoran berhasil diverifikasi bendahara.
+          </p>
+</div>
+</div>
+<div class="flex items-center gap-space-sm shrink-0 self-end md:self-center">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Sinkronisasi Terakhir:</span>
+<span class="font-tabular-finance-md text-tabular-finance-md text-primary bg-surface-container-low px-space-sm py-1 rounded">24 Okt 2024, 08:30 WIB</span>
+</div>
+</div>
+</section>
+<!-- 4 Primary Metric Summary Cards -->
+<section class="w-full px-margin py-space-lg">
+<div class="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-4 gap-gutter">
+<!-- Card 1: Total Kas Masuk Keseluruhan -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-md flex flex-col justify-between border-l-[4px] border-l-primary hover:shadow-md transition-shadow relative overflow-hidden group">
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Total Kas Terhimpun</span>
+<span class="font-tabular-finance-lg text-tabular-finance-lg text-primary mt-1">Rp 148.500.000</span>
+</div>
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[22px]">account_balance_wallet</span>
+</div>
+</div>
+<div class="mt-space-md flex items-center justify-between text-body-sm">
+<div class="flex items-center gap-1 text-[#065F46] font-semibold bg-[#ECFDF5] px-2 py-0.5 rounded">
+<span class="material-symbols-outlined text-[14px]">trending_up</span>
+<span>+12.4%</span>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant">vs Tahun Lalu (Rp 132 Jt)</span>
+</div>
+<div class="w-full bg-surface-container h-1 rounded-full mt-space-sm overflow-hidden">
+<div class="bg-primary h-full w-[85%] rounded-full"></div>
+</div>
+</div>
+<!-- Card 2: Total Kas Bulan Ini -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-md flex flex-col justify-between border-l-[4px] border-l-secondary-container hover:shadow-md transition-shadow relative overflow-hidden group">
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Kas Masuk Bulan Ini (Okt)</span>
+<span class="font-tabular-finance-lg text-tabular-finance-lg text-secondary mt-1">Rp 12.350.000</span>
+</div>
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-secondary group-hover:bg-secondary-container group-hover:text-on-secondary transition-colors">
+<span class="material-symbols-outlined text-[22px]">payments</span>
+</div>
+</div>
+<div class="mt-space-md flex items-center justify-between text-body-sm">
+<div class="flex items-center gap-1 text-on-surface-variant">
+<span>Target:</span>
+<span class="font-tabular-finance-md text-on-surface">Rp 13.000.000</span>
+</div>
+<span class="font-label-sm text-label-sm text-[#065F46] font-bold">95.0% Tercapai</span>
+</div>
+<div class="w-full bg-surface-container h-1 rounded-full mt-space-sm overflow-hidden">
+<div class="bg-secondary-container h-full w-[95%] rounded-full"></div>
+</div>
+</div>
+<!-- Card 3: Total Pengeluaran Kas & Sosial -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-md flex flex-col justify-between border-l-[4px] border-l-[#0039b5] hover:shadow-md transition-shadow relative overflow-hidden group">
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Pengeluaran &amp; Santunan</span>
+<span class="font-tabular-finance-lg text-tabular-finance-lg text-on-surface mt-1">Rp 34.200.000</span>
+</div>
+<div class="w-10 h-10 rounded-lg bg-surface-container flex items-center justify-center text-primary group-hover:bg-tertiary-container group-hover:text-on-primary transition-colors">
+<span class="material-symbols-outlined text-[22px]">handshake</span>
+</div>
+</div>
+<div class="mt-space-md flex items-center justify-between text-body-sm">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Terealisasi 45 Agenda</span>
+<span class="font-label-sm text-label-sm text-primary font-medium flex items-center gap-0.5 hover:underline cursor-pointer">
+            Lihat Rincian <span class="material-symbols-outlined text-[14px]">arrow_forward</span>
+</span>
+</div>
+<div class="w-full bg-surface-container h-1 rounded-full mt-space-sm overflow-hidden">
+<div class="bg-tertiary-container h-full w-[42%] rounded-full"></div>
+</div>
+</div>
+<!-- Card 4: Tunggakan / Piutang Iuran -->
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-md flex flex-col justify-between border-l-[4px] border-l-error hover:shadow-md transition-shadow relative overflow-hidden group">
+<div class="flex items-start justify-between">
+<div class="flex flex-col">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-wider">Tunggakan Belum Disetor</span>
+<span class="font-tabular-finance-lg text-tabular-finance-lg text-error mt-1">Rp 3.650.000</span>
+</div>
+<div class="w-10 h-10 rounded-lg bg-error-container/40 flex items-center justify-center text-error group-hover:bg-error group-hover:text-on-error transition-colors">
+<span class="material-symbols-outlined text-[22px]">pending_actions</span>
+</div>
+</div>
+<div class="mt-space-md flex items-center justify-between text-body-sm">
+<span class="font-body-sm text-body-sm text-error font-medium">14 Rekan Guru</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Rata-rata 2.6 Bln</span>
+</div>
+<div class="w-full bg-surface-container h-1 rounded-full mt-space-sm overflow-hidden">
+<div class="bg-error h-full w-[18%] rounded-full"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- Filter, Search, Legend & Action Bar -->
+<section class="w-full px-margin pb-space-md">
+<div class="bg-surface-container-lowest rounded-xl shadow-sm p-space-md flex flex-col gap-space-md">
+<!-- Top Row: Controls & Filters -->
+<div class="flex flex-col xl:flex-row xl:items-center justify-between gap-space-md">
+<!-- Search & Filter inputs -->
+<div class="flex flex-wrap items-center gap-space-sm flex-1">
+<!-- Search input -->
+<div class="relative min-w-[280px] flex-1 max-w-md">
+<span class="material-symbols-outlined text-outline absolute left-3 top-1/2 -translate-y-1/2 text-[18px]">search</span>
+<input class="w-full h-10 pl-9 pr-space-md bg-surface rounded-lg font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary shadow-inner" id="guruSearchInput" placeholder="Cari Nama Guru atau NIP..." type="text"/>
+</div>
+<!-- Periode Dropdown -->
+<div class="relative">
+<select class="h-10 pl-3 pr-8 bg-surface-container-low rounded-lg font-label-md text-label-md text-primary font-semibold focus:outline-none focus:ring-2 focus:ring-primary appearance-none cursor-pointer">
+<option selected="">Tahun Periode: 2024 (Aktif)</option>
+<option>Tahun Periode: 2023</option>
+<option>Tahun Periode: 2022</option>
+</select>
+<span class="material-symbols-outlined text-primary absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none text-[18px]">expand_more</span>
+</div>
+<!-- Sekolah / Satminkal Filter -->
+<div class="relative">
+<select class="h-10 pl-3 pr-8 bg-surface rounded-lg font-body-md text-body-md text-on-surface focus:outline-none focus:ring-2 focus:ring-primary appearance-none cursor-pointer">
+<option selected="" value="all">Semua Satuan Pendidikan</option>
+<option value="smpn1">SMP Negeri 1 Madani</option>
+<option value="smpn2">SMP Negeri 2 Unggulan</option>
+<option value="sman1">SMA Negeri 1 Prestasi</option>
+<option value="smkn1">SMK Negeri 1 Vokasi</option>
+</select>
+<span class="material-symbols-outlined text-outline absolute right-2.5 top-1/2 -translate-y-1/2 pointer-events-none text-[18px]">filter_list</span>
+</div>
+<button class="h-10 px-3 rounded-lg bg-surface text-on-surface-variant hover:text-primary hover:bg-surface-container text-body-sm font-medium transition-colors flex items-center gap-1" id="resetFilterBtn">
+<span class="material-symbols-outlined text-[16px]">refresh</span>
+<span>Reset</span>
+</button>
+</div>
+<!-- Export Action Buttons -->
+<div class="flex items-center gap-space-sm shrink-0">
+<button class="h-10 px-space-md rounded-lg bg-surface text-primary font-title-md hover:bg-surface-container flex items-center gap-2 transition-colors shadow-sm active:scale-[0.98]">
+<span class="material-symbols-outlined text-[18px] text-error">picture_as_pdf</span>
+<span>Unduh Rekap PDF</span>
+</button>
+<button class="h-10 px-space-md rounded-lg bg-surface text-primary font-title-md hover:bg-surface-container flex items-center gap-2 transition-colors shadow-sm active:scale-[0.98]">
+<span class="material-symbols-outlined text-[18px] text-[#065F46]">table_view</span>
+<span>Export Excel</span>
+</button>
+<a class="h-10 px-space-md rounded-lg bg-primary text-on-primary font-title-md hover:bg-primary-container flex items-center gap-2 shadow-sm transition-all active:scale-[0.98]" data-path="panel-iuran-guru" href="#">
+<span class="material-symbols-outlined text-[18px]">login</span>
+<span>Login Guru</span>
+</a>
+</div>
+</div>
+<!-- Bottom Row: Verification Status Legends Indicator Bar -->
+<div class="bg-surface-container-low rounded-lg p-space-sm flex flex-wrap items-center justify-between gap-space-sm">
+<div class="flex flex-wrap items-center gap-space-md">
+<span class="font-label-sm text-label-sm uppercase font-bold text-on-surface-variant tracking-wider flex items-center gap-1">
+<span class="material-symbols-outlined text-[16px] text-secondary">info</span>
+            Petunjuk Status Bulan:
+          </span>
+<div class="flex items-center gap-1.5">
+<span class="w-5 h-5 rounded-full bg-[#ECFDF5] text-[#065F46] flex items-center justify-center font-bold text-[11px] shadow-sm">✔</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">Lunas Terverifikasi</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-5 h-5 rounded-full bg-[#FFFBEB] text-[#92400E] flex items-center justify-center font-bold text-[11px] shadow-sm">⏳</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">Menunggu Verifikasi Admin</span>
+</div>
+<div class="flex items-center gap-1.5">
+<span class="w-5 h-5 rounded-full bg-[#FEF2F2] text-[#991B1B] flex items-center justify-center font-bold text-[11px] shadow-sm">✖</span>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold">Belum Bayar / Menunggak</span>
+</div>
+</div>
+<div class="text-label-sm text-on-surface-variant flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">price_check</span>
+<span>Besaran Iuran: <strong class="text-on-surface font-semibold">Rp 100.000 / Bulan</strong></span>
+</div>
+</div>
+</div>
+</section>
+<!-- Full 12-Month Matrix Table (Buku Rekapitulasi Tahunan) -->
+<section class="w-full px-margin pb-space-lg">
+<div class="bg-surface-container-lowest rounded-xl shadow-sm overflow-hidden flex flex-col">
+<!-- Table Header Title Bar -->
+<div class="px-space-md py-space-sm bg-surface-container flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm">
+<div class="w-2.5 h-6 bg-primary rounded"></div>
+<span class="font-headline-sm text-headline-sm text-primary">Matriks Rekapitulasi Iuran Kas Anggota T.A. 2024</span>
+<span class="bg-surface-container-highest px-2 py-0.5 rounded font-label-sm text-label-sm text-primary font-bold">128 Guru Terdaftar</span>
+</div>
+<div class="flex items-center gap-space-sm text-label-sm text-on-surface-variant">
+<span>Menampilkan <strong id="rowCountDisplay">8</strong> data terpilih</span>
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span>
+<span>Pembaruan sistemik</span>
+</div>
+</div>
+<!-- Matrix Table Scrollable Wrapper -->
+<div class="w-full overflow-x-auto">
+<table class="w-full text-left border-collapse" id="rekapTable">
+<thead>
+<tr class="bg-surface text-on-surface-variant font-label-md text-label-md uppercase tracking-wider select-none">
+<th class="py-space-md px-3 text-center w-12 shrink-0">No</th>
+<th class="py-space-md px-space-md min-w-[200px]">Nama Lengkap &amp; Gelar</th>
+<th class="py-space-md px-space-md min-w-[170px]">NIP / Unit Kerja</th>
+<th class="py-space-md px-1 text-center w-10">Jan</th>
+<th class="py-space-md px-1 text-center w-10">Feb</th>
+<th class="py-space-md px-1 text-center w-10">Mar</th>
+<th class="py-space-md px-1 text-center w-10">Apr</th>
+<th class="py-space-md px-1 text-center w-10">Mei</th>
+<th class="py-space-md px-1 text-center w-10">Jun</th>
+<th class="py-space-md px-1 text-center w-10">Jul</th>
+<th class="py-space-md px-1 text-center w-10">Agu</th>
+<th class="py-space-md px-1 text-center w-10">Sep</th>
+<th class="py-space-md px-1 text-center w-10">Okt</th>
+<th class="py-space-md px-1 text-center w-10">Nov</th>
+<th class="py-space-md px-1 text-center w-10">Des</th>
+<th class="py-space-md px-space-md text-right min-w-[120px]">Total Terbayar</th>
+<th class="py-space-md px-space-md text-center min-w-[130px]">Status Akun</th>
+</tr>
+</thead>
+<tbody class="divide-y divide-surface-container font-body-md text-body-md" id="tableBody">
+<!-- Teacher 1: Dra. Sri Wahyuni, M.Pd (Full Paid Jan-Oct, Nov-Dec Pending) -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-3 px-3 text-center text-on-surface-variant font-tabular-finance-md">01</td>
+<td class="py-3 px-space-md">
+<div class="flex flex-col">
+<span class="font-title-md text-on-surface group-hover:text-primary transition-colors">Dra. Hj. Sri Wahyuni, M.Pd</span>
+<span class="text-body-sm text-on-surface-variant">Guru Bahasa Indonesia</span>
+</div>
+</td>
+<td class="py-3 px-space-md">
+<div class="flex flex-col font-label-sm">
+<span class="text-on-surface font-semibold font-tabular-finance-md">19740512 199802 2 001</span>
+<span class="text-on-surface-variant">SMP Negeri 1 Madani</span>
+</div>
+</td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs" title="Januari: Lunas">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs" title="Februari: Lunas">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs" title="Maret: Lunas">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs" title="April: Lunas">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs" title="Mei: Lunas">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs" title="Juni: Lunas">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs" title="Juli: Lunas">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs" title="Agustus: Lunas">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs" title="September: Lunas">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs" title="Oktober: Lunas">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-surface-container-low text-outline items-center justify-center text-xs" title="November: Belum Jatuh Tempo">-</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-surface-container-low text-outline items-center justify-center text-xs" title="Desember: Belum Jatuh Tempo">-</span></td>
+<td class="py-3 px-space-md text-right font-tabular-finance-md text-on-surface font-semibold">Rp 1.000.000</td>
+<td class="py-3 px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-label-sm font-semibold bg-[#ECFDF5] text-[#065F46]">
+<span class="w-1.5 h-1.5 rounded-full bg-[#065F46]"></span>
+                  Tertib Lunas
+                </span>
+</td>
+</tr>
+<!-- Teacher 2: Ahmad Subarjo, S.Pd (Oct pending verification) -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-3 px-3 text-center text-on-surface-variant font-tabular-finance-md">02</td>
+<td class="py-3 px-space-md">
+<div class="flex flex-col">
+<span class="font-title-md text-on-surface group-hover:text-primary transition-colors">Ahmad Subarjo, S.Pd</span>
+<span class="text-body-sm text-on-surface-variant">Guru Matematika</span>
+</div>
+</td>
+<td class="py-3 px-space-md">
+<div class="flex flex-col font-label-sm">
+<span class="text-on-surface font-semibold font-tabular-finance-md">19820315 200604 1 008</span>
+<span class="text-on-surface-variant">SMA Negeri 1 Prestasi</span>
+</div>
+</td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#FFFBEB] text-[#92400E] items-center justify-center font-bold text-xs" title="Oktober: Verifikasi Bukti Bank">⏳</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-surface-container-low text-outline items-center justify-center text-xs">-</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-surface-container-low text-outline items-center justify-center text-xs">-</span></td>
+<td class="py-3 px-space-md text-right font-tabular-finance-md text-on-surface font-semibold">Rp 900.000</td>
+<td class="py-3 px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-label-sm font-semibold bg-[#FFFBEB] text-[#92400E]">
+<span class="w-1.5 h-1.5 rounded-full bg-[#92400E]"></span>
+                  Proses Cek Bank
+                </span>
+</td>
+</tr>
+<!-- Teacher 3: Budi Santoso, M.Si (Paid upfront for full year) -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-3 px-3 text-center text-on-surface-variant font-tabular-finance-md">03</td>
+<td class="py-3 px-space-md">
+<div class="flex flex-col">
+<span class="font-title-md text-on-surface group-hover:text-primary transition-colors">Budi Santoso, M.Si</span>
+<span class="text-body-sm text-on-surface-variant">Guru Fisika</span>
+</div>
+</td>
+<td class="py-3 px-space-md">
+<div class="flex flex-col font-label-sm">
+<span class="text-on-surface font-semibold font-tabular-finance-md">19791104 200312 1 002</span>
+<span class="text-on-surface-variant">SMA Negeri 1 Prestasi</span>
+</div>
+</td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-space-md text-right font-tabular-finance-md text-[#065F46] font-bold">Rp 1.200.000</td>
+<td class="py-3 px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-label-sm font-semibold bg-secondary-fixed text-on-secondary-fixed">
+<span class="w-1.5 h-1.5 rounded-full bg-secondary-container"></span>
+                  Lunas 1 Tahun Penuh
+                </span>
+</td>
+</tr>
+<!-- Teacher 4: Hj. Siti Rahmah, S.Pd.I (Unpaid Sept & Oct) -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-3 px-3 text-center text-on-surface-variant font-tabular-finance-md">04</td>
+<td class="py-3 px-space-md">
+<div class="flex flex-col">
+<span class="font-title-md text-on-surface group-hover:text-primary transition-colors">Hj. Siti Rahmah, S.Pd.I</span>
+<span class="text-body-sm text-on-surface-variant">Guru PAI</span>
+</div>
+</td>
+<td class="py-3 px-space-md">
+<div class="flex flex-col font-label-sm">
+<span class="text-on-surface font-semibold font-tabular-finance-md">19760820 200501 2 004</span>
+<span class="text-on-surface-variant">SMP Negeri 2 Unggulan</span>
+</div>
+</td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#FEF2F2] text-[#991B1B] items-center justify-center font-bold text-xs" title="September: Belum Terbayar">✖</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#FEF2F2] text-[#991B1B] items-center justify-center font-bold text-xs" title="Oktober: Belum Terbayar">✖</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-surface-container-low text-outline items-center justify-center text-xs">-</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-surface-container-low text-outline items-center justify-center text-xs">-</span></td>
+<td class="py-3 px-space-md text-right font-tabular-finance-md text-on-surface font-semibold">Rp 800.000</td>
+<td class="py-3 px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-label-sm font-semibold bg-[#FEF2F2] text-[#991B1B]">
+<span class="w-1.5 h-1.5 rounded-full bg-[#991B1B]"></span>
+                  Menunggak 2 Bln
+                </span>
+</td>
+</tr>
+<!-- Teacher 5: Dewi Lestari, S.Pd (Up to date) -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-3 px-3 text-center text-on-surface-variant font-tabular-finance-md">05</td>
+<td class="py-3 px-space-md">
+<div class="flex flex-col">
+<span class="font-title-md text-on-surface group-hover:text-primary transition-colors">Dewi Lestari, S.Pd</span>
+<span class="text-body-sm text-on-surface-variant">Guru Bahasa Inggris</span>
+</div>
+</td>
+<td class="py-3 px-space-md">
+<div class="flex flex-col font-label-sm">
+<span class="text-on-surface font-semibold font-tabular-finance-md">19850709 200903 2 007</span>
+<span class="text-on-surface-variant">SMK Negeri 1 Vokasi</span>
+</div>
+</td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-surface-container-low text-outline items-center justify-center text-xs">-</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-surface-container-low text-outline items-center justify-center text-xs">-</span></td>
+<td class="py-3 px-space-md text-right font-tabular-finance-md text-on-surface font-semibold">Rp 1.000.000</td>
+<td class="py-3 px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-label-sm font-semibold bg-[#ECFDF5] text-[#065F46]">
+<span class="w-1.5 h-1.5 rounded-full bg-[#065F46]"></span>
+                  Tertib Lunas
+                </span>
+</td>
+</tr>
+<!-- Teacher 6: Bambang Irawan, S.Pd., M.M (Pending Okt) -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-3 px-3 text-center text-on-surface-variant font-tabular-finance-md">06</td>
+<td class="py-3 px-space-md">
+<div class="flex flex-col">
+<span class="font-title-md text-on-surface group-hover:text-primary transition-colors">Bambang Irawan, S.Pd., M.M</span>
+<span class="text-body-sm text-on-surface-variant">Guru Bimbingan Konseling</span>
+</div>
+</td>
+<td class="py-3 px-space-md">
+<div class="flex flex-col font-label-sm">
+<span class="text-on-surface font-semibold font-tabular-finance-md">19710312 199601 1 003</span>
+<span class="text-on-surface-variant">SMP Negeri 1 Madani</span>
+</div>
+</td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#FFFBEB] text-[#92400E] items-center justify-center font-bold text-xs" title="Oktober: Verifikasi">⏳</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-surface-container-low text-outline items-center justify-center text-xs">-</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-surface-container-low text-outline items-center justify-center text-xs">-</span></td>
+<td class="py-3 px-space-md text-right font-tabular-finance-md text-on-surface font-semibold">Rp 900.000</td>
+<td class="py-3 px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-label-sm font-semibold bg-[#FFFBEB] text-[#92400E]">
+<span class="w-1.5 h-1.5 rounded-full bg-[#92400E]"></span>
+                  Proses Cek Bank
+                </span>
+</td>
+</tr>
+<!-- Teacher 7: Ratna Sari, M.Pd (Menunggak 3 bulan) -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-3 px-3 text-center text-on-surface-variant font-tabular-finance-md">07</td>
+<td class="py-3 px-space-md">
+<div class="flex flex-col">
+<span class="font-title-md text-on-surface group-hover:text-primary transition-colors">Ratna Sari, M.Pd</span>
+<span class="text-body-sm text-on-surface-variant">Guru Biologi</span>
+</div>
+</td>
+<td class="py-3 px-space-md">
+<div class="flex flex-col font-label-sm">
+<span class="text-on-surface font-semibold font-tabular-finance-md">19880211 201101 2 009</span>
+<span class="text-on-surface-variant">SMK Negeri 1 Vokasi</span>
+</div>
+</td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#FEF2F2] text-[#991B1B] items-center justify-center font-bold text-xs">✖</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#FEF2F2] text-[#991B1B] items-center justify-center font-bold text-xs">✖</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#FEF2F2] text-[#991B1B] items-center justify-center font-bold text-xs">✖</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-surface-container-low text-outline items-center justify-center text-xs">-</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-surface-container-low text-outline items-center justify-center text-xs">-</span></td>
+<td class="py-3 px-space-md text-right font-tabular-finance-md text-on-surface font-semibold">Rp 700.000</td>
+<td class="py-3 px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-label-sm font-semibold bg-[#FEF2F2] text-[#991B1B]">
+<span class="w-1.5 h-1.5 rounded-full bg-[#991B1B]"></span>
+                  Menunggak 3 Bln
+                </span>
+</td>
+</tr>
+<!-- Teacher 8: Hendra Wijaya, S.Kom (Paid Jan-Oct) -->
+<tr class="hover:bg-surface-container-low transition-colors group">
+<td class="py-3 px-3 text-center text-on-surface-variant font-tabular-finance-md">08</td>
+<td class="py-3 px-space-md">
+<div class="flex flex-col">
+<span class="font-title-md text-on-surface group-hover:text-primary transition-colors">Hendra Wijaya, S.Kom</span>
+<span class="text-body-sm text-on-surface-variant">Guru Informatika</span>
+</div>
+</td>
+<td class="py-3 px-space-md">
+<div class="flex flex-col font-label-sm">
+<span class="text-on-surface font-semibold font-tabular-finance-md">19900418 201502 1 005</span>
+<span class="text-on-surface-variant">SMP Negeri 2 Unggulan</span>
+</div>
+</td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-[#ECFDF5] text-[#065F46] items-center justify-center font-bold text-xs">✔</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-surface-container-low text-outline items-center justify-center text-xs">-</span></td>
+<td class="py-3 px-1 text-center"><span class="inline-flex w-7 h-7 rounded bg-surface-container-low text-outline items-center justify-center text-xs">-</span></td>
+<td class="py-3 px-space-md text-right font-tabular-finance-md text-on-surface font-semibold">Rp 1.000.000</td>
+<td class="py-3 px-space-md text-center">
+<span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-label-sm font-semibold bg-[#ECFDF5] text-[#065F46]">
+<span class="w-1.5 h-1.5 rounded-full bg-[#065F46]"></span>
+                  Tertib Lunas
+                </span>
+</td>
+</tr>
+</tbody>
+<!-- Table Sticky Calculation / Total Row Footer -->
+<tfoot>
+<tr class="bg-surface-container-low text-on-surface font-title-md border-t-2 border-primary/20">
+<td class="py-space-md px-space-md text-right uppercase tracking-wider font-semibold" colspan="3">
+                Total Perolehan Tercatat (8 Sampel):
+              </td>
+<td class="py-space-md px-1 text-center font-tabular-finance-md text-xs font-bold text-primary">800k</td>
+<td class="py-space-md px-1 text-center font-tabular-finance-md text-xs font-bold text-primary">800k</td>
+<td class="py-space-md px-1 text-center font-tabular-finance-md text-xs font-bold text-primary">800k</td>
+<td class="py-space-md px-1 text-center font-tabular-finance-md text-xs font-bold text-primary">800k</td>
+<td class="py-space-md px-1 text-center font-tabular-finance-md text-xs font-bold text-primary">800k</td>
+<td class="py-space-md px-1 text-center font-tabular-finance-md text-xs font-bold text-primary">800k</td>
+<td class="py-space-md px-1 text-center font-tabular-finance-md text-xs font-bold text-primary">800k</td>
+<td class="py-space-md px-1 text-center font-tabular-finance-md text-xs font-bold text-primary">700k</td>
+<td class="py-space-md px-1 text-center font-tabular-finance-md text-xs font-bold text-primary">600k</td>
+<td class="py-space-md px-1 text-center font-tabular-finance-md text-xs font-bold text-primary">400k</td>
+<td class="py-space-md px-1 text-center font-tabular-finance-md text-xs font-bold text-outline">100k</td>
+<td class="py-space-md px-1 text-center font-tabular-finance-md text-xs font-bold text-outline">100k</td>
+<td class="py-space-md px-space-md text-right font-tabular-finance-md text-primary font-bold">
+                Rp 7.500.000
+              </td>
+<td class="py-space-md px-space-md text-center">
+<span class="text-label-sm font-bold text-[#065F46] bg-[#ECFDF5] px-2 py-1 rounded">
+                  94.2% Kepatuhan
+                </span>
+</td>
+</tr>
+</tfoot>
+</table>
+</div>
+<!-- Pagination & Summary Stats Footer -->
+<div class="px-space-md py-space-sm bg-surface-container-lowest flex flex-col sm:flex-row sm:items-center justify-between gap-space-sm">
+<div class="flex items-center gap-space-md text-body-sm text-on-surface-variant">
+<span>Menampilkan <strong>1-8</strong> dari <strong>128</strong> Rekan Pendidik</span>
+<div class="hidden md:flex items-center gap-2">
+<span class="w-2 h-2 rounded-full bg-secondary-container"></span>
+<span>Total Tertagih Periode Berjalan: <strong class="text-on-surface">Rp 128.000.000</strong></span>
+</div>
+</div>
+<div class="flex items-center gap-1 self-center">
+<button class="h-8 px-2.5 rounded bg-surface hover:bg-surface-container text-outline hover:text-on-surface text-body-sm transition-colors flex items-center justify-center" disabled="">
+<span class="material-symbols-outlined text-[16px]">chevron_left</span>
+</button>
+<button class="h-8 w-8 rounded bg-primary text-on-primary text-label-md font-bold shadow-sm">1</button>
+<button class="h-8 w-8 rounded bg-surface hover:bg-surface-container text-on-surface text-label-md transition-colors">2</button>
+<button class="h-8 w-8 rounded bg-surface hover:bg-surface-container text-on-surface text-label-md transition-colors">3</button>
+<span class="px-1 text-outline">...</span>
+<button class="h-8 w-8 rounded bg-surface hover:bg-surface-container text-on-surface text-label-md transition-colors">16</button>
+<button class="h-8 px-2.5 rounded bg-surface hover:bg-surface-container text-on-surface text-body-sm transition-colors flex items-center justify-center">
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- Side-by-Side Informational Section: Mekanisme & Alokasi Dana -->
+<section class="w-full px-margin pb-space-xl">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-gutter">
+<!-- Mekanisme Iuran & Transfer Guidance Card (8 Cols) -->
+<div class="lg:col-span-8 bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col justify-between border-t-4 border-t-secondary-container relative overflow-hidden">
+<div>
+<div class="flex items-center justify-between pb-space-sm border-b border-surface-container">
+<div class="flex items-center gap-space-sm">
+<div class="w-9 h-9 rounded-lg bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed">
+<span class="material-symbols-outlined text-[20px]">account_balance</span>
+</div>
+<div class="flex flex-col">
+<h3 class="font-headline-sm text-headline-sm text-primary">Mekanisme Iuran Kas Sertifikasi Guru</h3>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Pedoman resmi penyetoran berdasarkan Keputusan Rapat Pleno Pengurus</span>
+</div>
+</div>
+<span class="hidden sm:inline-block px-space-sm py-1 bg-surface-container rounded font-label-sm text-label-sm font-bold text-primary uppercase">SK No. 04/PGRI-KAS/2024</span>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-space-md my-space-lg">
+<!-- Box 1: Nominal Wajib -->
+<div class="p-space-md rounded-lg bg-surface-container-low flex flex-col justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase font-bold tracking-wider">Besaran Wajib</span>
+<div class="font-tabular-finance-lg text-tabular-finance-lg text-primary mt-1">Rp 100.000</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-2 leading-relaxed">
+                  Dipotong / disetorkan per triwulan atau per bulan begitu Tunjangan Profesi Guru (TPG) cair.
+                </p>
+</div>
+<div class="mt-space-md flex items-center gap-1 text-primary text-label-sm font-semibold">
+<span class="material-symbols-outlined text-[16px]">event_repeat</span>
+<span>Periode Berjalan 2024</span>
+</div>
+</div>
+<!-- Box 2: Rekening Bank BSI -->
+<div class="p-space-md rounded-lg bg-surface flex flex-col justify-between relative group hover:bg-surface-container-low transition-colors">
+<div>
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-bold text-primary">BANK SYARIAH INDONESIA (BSI)</span>
+<span class="material-symbols-outlined text-[16px] text-secondary">verified</span>
+</div>
+<div class="font-tabular-finance-md text-tabular-finance-md text-on-surface mt-2 font-mono select-all">
+                  7189 0234 55
+                </div>
+<span class="text-body-sm text-on-surface-variant block mt-1">a.n. Kas Paguyuban Sertifikasi</span>
+</div>
+<button class="mt-space-md h-8 w-full bg-surface-container-lowest text-primary rounded font-label-sm text-label-sm font-bold flex items-center justify-center gap-1 hover:bg-primary hover:text-on-primary transition-colors shadow-sm" onclick="navigator.clipboard.writeText('7189023455'); alert('Nomor Rekening BSI Berhasil Disalin!');">
+<span class="material-symbols-outlined text-[14px]">content_copy</span>
+<span>Salin No. Rekening</span>
+</button>
+</div>
+<!-- Box 3: Rekening Bank Nagari / BRI Mitra -->
+<div class="p-space-md rounded-lg bg-surface flex flex-col justify-between relative group hover:bg-surface-container-low transition-colors">
+<div>
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm font-bold text-primary">BANK BRI (KAS RESMI)</span>
+<span class="material-symbols-outlined text-[16px] text-secondary">verified</span>
+</div>
+<div class="font-tabular-finance-md text-tabular-finance-md text-on-surface mt-2 font-mono select-all">
+                  0124 0100 4567 508
+                </div>
+<span class="text-body-sm text-on-surface-variant block mt-1">a.n. Rekening Kolektif Guru</span>
+</div>
+<button class="mt-space-md h-8 w-full bg-surface-container-lowest text-primary rounded font-label-sm text-label-sm font-bold flex items-center justify-center gap-1 hover:bg-primary hover:text-on-primary transition-colors shadow-sm" onclick="navigator.clipboard.writeText('012401004567508'); alert('Nomor Rekening BRI Berhasil Disalin!');">
+<span class="material-symbols-outlined text-[14px]">content_copy</span>
+<span>Salin No. Rekening</span>
+</button>
+</div>
+</div>
+</div>
+<div class="bg-surface-container-low p-space-md rounded-xl flex flex-col sm:flex-row items-center justify-between gap-space-md">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-secondary text-[24px]">task_alt</span>
+<div class="flex flex-col">
+<span class="font-title-md text-on-surface">Sudah melakukan transfer dana iuran?</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">Unggah bukti transfer Anda ke panel guru agar segera diverifikasi oleh tim bendahara.</span>
+</div>
+</div>
+<a class="h-10 px-space-lg rounded-lg bg-secondary-container hover:bg-secondary text-on-secondary font-title-md flex items-center gap-2 shadow-sm transition-all whitespace-nowrap active:scale-[0.98]" data-path="panel-iuran-guru" href="#">
+<span>Masuk Panel Guru &amp; Unggah Bukti</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+</div>
+</div>
+<!-- Alokasi Penggunaan Dana Kas (4 Cols Card) -->
+<div class="lg:col-span-4 bg-surface-container-lowest rounded-xl shadow-sm p-space-lg flex flex-col justify-between border-t-4 border-t-primary">
+<div>
+<div class="flex items-center justify-between pb-space-sm border-b border-surface-container">
+<div class="flex items-center gap-space-sm">
+<span class="material-symbols-outlined text-primary text-[20px]">pie_chart</span>
+<h3 class="font-headline-sm text-headline-sm text-primary">Distribusi Realisasi Kas</h3>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant">T.A. 2024</span>
+</div>
+<!-- Progress Allocation Bars -->
+<div class="flex flex-col gap-space-md my-space-lg">
+<!-- Category 1 -->
+<div class="flex flex-col gap-1">
+<div class="flex justify-between items-center text-body-sm">
+<span class="font-title-md text-on-surface">Santunan Duka &amp; Sosial Pendidik</span>
+<span class="font-tabular-finance-md text-primary font-bold">45% (Rp 15.390.000)</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-primary h-full rounded-full" style="width: 45%;"></div>
+</div>
+</div>
+<!-- Category 2 -->
+<div class="flex flex-col gap-1">
+<div class="flex justify-between items-center text-body-sm">
+<span class="font-title-md text-on-surface">Peningkatan Kompetensi (Seminar &amp; Workshop)</span>
+<span class="font-tabular-finance-md text-secondary-container font-bold">30% (Rp 10.260.000)</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-secondary-container h-full rounded-full" style="width: 30%;"></div>
+</div>
+</div>
+<!-- Category 3 -->
+<div class="flex justify-between items-center text-body-sm">
+<span class="font-title-md text-on-surface">Bantuan Advokasi &amp; Perlindungan Guru</span>
+<span class="font-tabular-finance-md text-tertiary-container font-bold">15% (Rp 5.130.000)</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-tertiary-container h-full rounded-full" style="width: 15%;"></div>
+</div>
+<!-- Category 4 -->
+<div class="flex justify-between items-center text-body-sm">
+<span class="font-title-md text-on-surface">Operasional &amp; Administrasi Pelaporan</span>
+<span class="font-tabular-finance-md text-outline font-bold">10% (Rp 3.420.000)</span>
+</div>
+<div class="w-full bg-surface-container h-2 rounded-full overflow-hidden">
+<div class="bg-outline h-full rounded-full" style="width: 10%;"></div>
+</div>
+</div>
+</div>
+<div class="p-space-sm bg-surface-container-low rounded-lg flex items-center justify-between text-body-sm">
+<span class="text-on-surface-variant">Laporan Terbuka &amp; Diaudit:</span>
+<a class="text-primary font-semibold hover:underline flex items-center gap-0.5" data-path="buku-kas-laporan" href="#">
+<span>Buku Kas Detail</span>
+<span class="material-symbols-outlined text-[14px]">open_in_new</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Search / Filter Client-side Script -->
+<script>
+    (function initTableFilter() {
+      const searchInput = document.getElementById('guruSearchInput');
+      const resetBtn = document.getElementById('resetFilterBtn');
+      const tableBody = document.getElementById('tableBody');
+      const rowCountDisplay = document.getElementById('rowCountDisplay');
+      
+      if (!searchInput || !tableBody) return;
+
+      const rows = tableBody.getElementsByTagName('tr');
+
+      function filterTable() {
+        const query = searchInput.value.toLowerCase().trim();
+        let visibleCount = 0;
+
+        for (let i = 0; i < rows.length; i++) {
+          const rowText = rows[i].textContent.toLowerCase();
+          if (rowText.includes(query)) {
+            rows[i].style.display = '';
+            visibleCount++;
+          } else {
+            rows[i].style.display = 'none';
+          }
+        }
+
+        if (rowCountDisplay) {
+          rowCountDisplay.textContent = visibleCount;
+        }
+      }
+
+      searchInput.addEventListener('input', filterTable);
+
+      if (resetBtn) {
+        resetBtn.addEventListener('click', function() {
+          searchInput.value = '';
+          filterTable();
+        });
+      }
+    })();
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest border-t border-surface-container py-space-lg"><div class="w-full px-margin flex flex-col md:flex-row items-center justify-between gap-space-md text-on-surface-variant"><div class="flex items-center gap-space-sm"><div class="w-2 h-2 rounded-full bg-secondary-container"></div><span class="font-body-sm text-body-sm font-medium">© 2024 Sistem Informasi Laporan Keuangan Iuran Kas Guru Sertifikasi. Hak Cipta Dilindungi.</span></div><div class="flex items-center gap-space-md font-label-sm text-label-sm text-on-surface-variant"><span>Transparansi Dana Sertifikasi PGRI</span><span class="w-1 h-1 rounded-full bg-outline-variant"></span><span>Dinas Pendidikan &amp; Kebudayaan</span><span class="w-1 h-1 rounded-full bg-outline-variant"></span><span>Standar Akuntabilitas Publik</span></div></div></footer></body></html>
